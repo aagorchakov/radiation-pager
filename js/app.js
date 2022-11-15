@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('js/serviceworker.js');
+	navigator.serviceWorker.register('js/serviceworker.js');
 }
 
 
@@ -12,4 +12,3 @@ class App {
 	static controller = new Controller()
 
 }
-
