@@ -1,0 +1,46 @@
+* {
+	font-family: Consolas, Tahoma, "Courier New", Courier, monospace; 
+}
+
+body {
+	background-color: black;
+	color: lime;
+}
+
+#measurement {
+	display: flex;
+	font-size: 42px;
+	margin: 10px 0 2px 0;
+	border-top: 3px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+#measurement.enable {
+	border-top-color: red;
+}
+
+#measurement.blink {
+	border-bottom-color: lime;
+}
+
+#measurement #short,
+#measurement #long,
+#measurement #infinite,
+#measurement #infinite-deviation {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25%;
+}
+
+#measurement #short {
+	color: blue;
+}
+
+#measurement #infinite,
+#measurement #infinite-deviation {
+	color: red;
+}
+
+#measurement #infinite-deviation {
+	text-align: right;
+}
